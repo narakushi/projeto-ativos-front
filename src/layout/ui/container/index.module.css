@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.collumnMode {
+  flex-direction: column;
+}
