@@ -1,0 +1,19 @@
+.containerForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  border-bottom: 0.1rem solid var(--cool-gray-30);
+}
+
+.containerFormInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.containerButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}

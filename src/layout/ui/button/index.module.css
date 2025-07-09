@@ -10,6 +10,7 @@
   color: var(--blue-color);
   transition: all 0.3s ease-in;
   cursor: pointer;
+  background: var(--white-color);
 }
 
 .btnColor {
