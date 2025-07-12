@@ -1,0 +1,41 @@
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.stepper .child {
+  width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  list-style: none;
+}
+
+.child li {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.stepper .stepOrder {
+  background-color: var(--cool-gray-20);
+  padding: 1.6rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  border-radius: 100%;
+}
+
+.active {
+  .stepOrder {
+    background-color: var(--blue-color);
+  }
+
+  font-weight: bold;
+}

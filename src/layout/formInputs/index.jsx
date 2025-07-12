@@ -1,6 +1,6 @@
-import { Input } from "../input";
-import { Select } from "../select";
-import { TextArea } from "../textarea";
+import { Input } from "../ui/input";
+import { Select } from "../ui/select";
+import { TextArea } from "../ui/textarea";
 import styles from "./index.module.css";
 
 export const FormInputs = ({ inputs, formData, handleChange }) => {
