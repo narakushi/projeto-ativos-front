@@ -7,6 +7,7 @@
   --cool-gray-10: #f2f4f8;
   --cool-gray-35: #eceff4;
   --blue-color: #0f62fe;
+  --cool-blue: #dde9ff;
   --white-color: #ffffff;
   --black-color: #000000;
   --dark-blue: #001d6c;
@@ -34,5 +35,6 @@ body,
 a {
   text-decoration: none;
   color: inherit;
-  min-width: inherit;
+  min-width: 100%;
+  height: 100%;
 }

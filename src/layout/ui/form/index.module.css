@@ -1,0 +1,6 @@
+.form {
+  width: 100%;
+  background-color: var(--cool-blue);
+  padding: 4rem;
+  border-radius: 0.4rem;
+}
